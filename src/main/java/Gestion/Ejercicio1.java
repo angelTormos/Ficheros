@@ -1,3 +1,5 @@
+package Gestion;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
@@ -11,6 +13,7 @@ public class Ejercicio1 {
         do {
         System.out.println("Lista de ficheros y directorios del directorio: ");
         System.out.println("---------------------------------------------------");
+        System.out.println(contador + ".- " + "Directorio Padre");
         for (String e : f.list()) {
             contador ++;
                 if (f.isFile()) {
